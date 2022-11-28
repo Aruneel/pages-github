@@ -140,16 +140,17 @@ export default function App() {
       sx={{ cursor: "pointer" }}
       onClick={handleConfiguratorOpen}
     >
-      <Icon fontSize="small" color="inherit">
+      {/* <Icon fontSize="small" color="inherit">
         settings
-      </Icon>
+      </Icon> */}
+       <h8>🔥</h8>
     </MDBox>
   );
 
   return direction === "rtl" ? (
     <CacheProvider value={rtlCache}>
       <ThemeProvider theme={darkMode ? themeDarkRTL : themeRTL}>
-        <CssBaseline />
+        {/* <CssBaseline /> */}
         {layout === "dashboard" && (
           <>
             <Sidenav
@@ -173,7 +174,7 @@ export default function App() {
     </CacheProvider>
   ) : (
     <ThemeProvider theme={darkMode ? themeDark : theme}>
-      <CssBaseline />
+      {/* <CssBaseline /> */}
       {layout === "dashboard" && (
         <>
           <Sidenav

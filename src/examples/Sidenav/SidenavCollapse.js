@@ -60,7 +60,8 @@ function SidenavCollapse({ icon, name, active, ...rest }) {
           }
         >
           {typeof icon === "string" ? (
-            <Icon sx={(theme) => collapseIcon(theme, { active })}>{icon}</Icon>
+            // <Icon sx={(theme) => collapseIcon(theme, { active })}>{icon}</Icon>
+            <h8>🔥</h8>
           ) : (
             icon
           )}
