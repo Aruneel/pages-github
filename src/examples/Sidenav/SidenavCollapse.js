@@ -33,7 +33,7 @@ import {
   collapseText,
 } from "./styles/sidenavCollapse";
 
-// Material Dashboard 2 React context
+// Material Dashboard 2 React context.
 import { useMaterialUIController } from "../../context";
 
 function SidenavCollapse({ icon, name, active, ...rest }) {
